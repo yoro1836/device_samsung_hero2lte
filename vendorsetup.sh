@@ -86,7 +86,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_USE_SYSTEM_FINGERPRINT="1"
 	
 	# Create Odin Flashable .tar files
-	export OF_NO_SAMSUNG_SPECIAL=0
+	export OF_NO_SAMSUNG_SPECIAL=1
 	
 	# OF_MAINTAINER_AVATAR Setup
     if [ -n "$OF_MAINTAINER_AVATAR" ]; then
