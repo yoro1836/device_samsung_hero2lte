@@ -71,6 +71,8 @@ XZ_COMPRESSION := -9
 XZ_RAMDISK_TARGETS := recovery
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
+# Boot
+XZ_BOOTIMG_TARGETS := boot
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
